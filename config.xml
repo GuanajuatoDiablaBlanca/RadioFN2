@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gim.sebinigmail.com.radiofn" version="10" xmlns="http://www.w3.org/ns/widgets" xmlns:intelxdk="http://xdk.intel.com/ns/v1">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="ios-package" value="CDVAccelerometer" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Capture">
+        <param name="ios-package" value="CDVCapture" />
+    </feature>
+    <feature name="Compass">
+        <param name="ios-package" value="CDVCompass" />
+    </feature>
+    <feature name="Contacts">
+        <param name="ios-package" value="CDVContacts" />
+    </feature>
+    <feature name="Battery">
+        <param name="ios-package" value="CDVBattery" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="Globalization">
+        <param name="ios-package" value="CDVGlobalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Vibration">
+        <param name="ios-package" value="CDVVibration" />
+    </feature>
+    <feature name="IntelXDKDevice">
+        <param name="ios-package" value="XDKDevice" />
+    </feature>
+    <feature name="IntelXDKPlayer">
+        <param name="ios-package" value="XDKPlayer" />
+    </feature>
+    <feature name="Media">
+        <param name="ios-package" value="CDVSound" />
+    </feature>
+    <intelxdk:version value="1.0" />
+    <intelxdk:cordova-cli version="3.5" />
+    <name>RadioFN</name>
+    <description>La radio ufficiale di Forza Nuova</description>
+    <author>radiofn</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon height="120" platform="ios" src="icone/iconaios120.png" width="120" />
+    <icon height="60" platform="ios" src="icone/iconaios60.png" width="60" />
+    <icon height="152" platform="ios" src="icone/iconaios152.png" width="152" />
+    <icon height="76" platform="ios" src="icone/iconaios76.png" width="76" />
+    <splash height="960" orientation="portrait" platform="ios" src="icone/splashios640960.jpg" width="640" />
+    <splash height="480" orientation="portrait" platform="ios" src="icone/splashios320.jpg" width="320" />
+    <splash height="2008" orientation="portrait" platform="ios" src="icone/splashios1536.jpg" width="1536" />
+    <splash height="1004" orientation="portrait" platform="ios" src="icone/splashios768.jpg" width="768" />
+    <splash height="1136" orientation="portrait" platform="ios" src="icone/splashios1136.jpg" width="640" />
+    <intelxdk:plugin intelxdk:name="Connection" intelxdk:value="org.apache.cordova.network-information" intelxdk:version="0.2.8" />
+    <intelxdk:plugin intelxdk:name="Device" intelxdk:value="org.apache.cordova.device" intelxdk:version="0.2.9" />
+    <intelxdk:plugin intelxdk:name="SplashScreen" intelxdk:value="org.apache.cordova.splashscreen" intelxdk:version="0.3.0" />
+    <intelxdk:plugin intelxdk:name="Accelerometer" intelxdk:value="org.apache.cordova.device-motion" intelxdk:version="0.2.4" />
+    <intelxdk:plugin intelxdk:name="Camera" intelxdk:value="org.apache.cordova.camera" intelxdk:version="0.2.9" />
+    <intelxdk:plugin intelxdk:name="Capture" intelxdk:value="org.apache.cordova.media-capture" intelxdk:version="0.2.8" />
+    <intelxdk:plugin intelxdk:name="Compass" intelxdk:value="org.apache.cordova.device-orientation" intelxdk:version="0.3.6" />
+    <intelxdk:plugin intelxdk:name="Contacts" intelxdk:value="org.apache.cordova.contacts" intelxdk:version="0.2.8" />
+    <intelxdk:plugin intelxdk:name="Events (battery status)" intelxdk:value="org.apache.cordova.battery-status" intelxdk:version="0.2.5" />
+    <intelxdk:plugin intelxdk:name="File" intelxdk:value="org.apache.cordova.file" intelxdk:version="0.2.5" />
+    <intelxdk:plugin intelxdk:name="Geolocation" intelxdk:value="org.apache.cordova.geolocation" intelxdk:version="0.3.5" />
+    <intelxdk:plugin intelxdk:name="Globalization" intelxdk:value="org.apache.cordova.globalization" intelxdk:version="0.2.7" />
+    <intelxdk:plugin intelxdk:name="In App Browser" intelxdk:value="org.apache.cordova.inappbrowser" intelxdk:version="0.3.0" />
+    <intelxdk:plugin intelxdk:name="Dialogs (notification)" intelxdk:value="org.apache.cordova.dialogs" intelxdk:version="0.2.5" />
+    <intelxdk:plugin intelxdk:name="Vibration (notification)" intelxdk:value="org.apache.cordova.vibration" intelxdk:version="0.3.5" />
+    <intelxdk:plugin intelxdk:name="Device" intelxdk:value="intel.xdk.device" />
+    <intelxdk:plugin intelxdk:name="Player" intelxdk:value="intel.xdk.player" />
+    <intelxdk:plugin intelxdk:name="Media" intelxdk:value="org.apache.cordova.media" intelxdk:version="0.2.8" />
+    <preference name="ios-target" value="5" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="Fullscreen" value="true" />
+    <intelxdk:provisioning intelxdk:src="certificati/RadioFN.mobileprovision" intelxdk:type="adhoc" />
+</widget>

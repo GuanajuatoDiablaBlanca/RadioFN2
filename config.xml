@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
+<gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
 <widget id="com.gim.sebinigmail.com.radiofn" version="10" xmlns="http://www.w3.org/ns/widgets" xmlns:intelxdk="http://xdk.intel.com/ns/v1">
-    <preference name="AllowInlineMediaPlayback" value="false" />
+   <gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
+   <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -114,3 +116,4 @@
     <preference name="Fullscreen" value="true" />
     <intelxdk:provisioning intelxdk:src="certificati/RadioFN.mobileprovision" intelxdk:type="adhoc" />
 </widget>
+<gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />

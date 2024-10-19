@@ -459,7 +459,7 @@ module.exports = [
     {
         "file": "plugins/org.apache.cordova.file/www/fileSystems-roots.js",
         "id": "org.apache.cordova.file.fileSystems-roots",
-        "runs": true
+        "runs": false
     },
     {
         "file": "plugins/org.apache.cordova.file/www/fileSystemPaths.js",
@@ -467,7 +467,7 @@ module.exports = [
         "merges": [
             "cordova"
         ],
-        "runs": true
+        "runs": false
     }
 ];
 module.exports.metadata = 
